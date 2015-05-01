@@ -1,0 +1,17 @@
+{
+  "postgres": 
+  {
+    "server_root_password": "password"
+  },
+  
+  "sds_django_cookbook": 
+  {
+    "db_user_password": "bdfudgf93efgf1eguf"
+  },
+  
+  "run_list": 
+  [ 
+    "recipe[apt]",
+    "recipe[sds_django_cookbook]"
+  ]
+}
